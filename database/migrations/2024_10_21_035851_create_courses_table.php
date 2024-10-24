@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('cover');
+            $table->text('content');
             $table->unsignedBigInteger('kit_id')->nullable();
             $table->foreign('kit_id')->references('id')->on('kits')->onDelete('cascade');
             $table->timestamps();
