@@ -11,4 +11,4 @@ El objetivo de la plataforma es crear grupos con estudiantes y asignarles cursos
 -   Un grupo puede tener varios cursos.
 -   Un curso cuenta con un kit de robótica.
 
-![Diagrama ER Actividad 7](image.png)
+![Diagrama ER Actividad 7](ER%20diagram.png)
